@@ -23,7 +23,7 @@ Replace {ProjName} with your project's name
   "AllowedHosts": "*",
   "DBInfo": {
     "Name": "MySqlConnect",
-    "ConnectionString": "server=localhost;userid=root;password=root;port=3306;database=YOUR_DB_NAME;SslMode=None"
+    "ConnectionString": "server=localhost;userid=root;password=rootroot;port=3306;database=YOUR_DB_NAME;SslMode=None"
   }
 }
 ```
