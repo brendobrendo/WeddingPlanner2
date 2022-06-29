@@ -30,9 +30,9 @@ Copy and paste into the appsettings.json file. **Don't forget to change _YOUR-DB
 ## Create ProjectNameContext.cs model (ProjNameContext.cs)
 Create a new file under the <sup>Models</sup> project directory.
 
-Name it, ProjNameContext.cs (but replace ProjName with your projects's name. For example, if your project name was, "CatFeeder", name the file, <sup>CatFeederContext.cs<cs>)
+Name it, <sup>ProjNameContext.cs</sup> (but replace ProjName with your projects's name. For example, if your project name was, "CatFeeder", name the file, <sup>CatFeederContext.cs<cs>)
 
 This file will direct the ORM to connect each DB table to the correct model/class.
 
-**Remember DbSet properties should be named _plural_. So if the model is Cat, the DbSet name should be Cats**
+**Remember DbSet properties should be named _in plural form_. So if the model is Cat, the DbSet name should be Cats**
 
